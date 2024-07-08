@@ -1,0 +1,75 @@
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.stteper-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  height: 92px;
+  min-width: 50px;
+  min-height: 50px;
+  max-height: 92px;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.row-layout {
+  display: flex;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0.5rem;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.button {
+  margin: 10px;
+  height: max-content;
+  align-self: flex-start;
+}
+.button_1 {
+  height: max-content;
+  flex-shrink: 0;
+}
+.stepper {
+  min-width: 0;
+  min-height: 0;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.step-content {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 10px;
+  overflow: auto;
+  position: relative;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}

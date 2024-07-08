@@ -1,0 +1,30 @@
+:root {
+    --ig-font-family: "Poppins";
+    --ig-primary-h: 194deg;
+    --ig-primary-s: 76%;
+    --ig-primary-l: 48%;
+    --ig-secondary-h: 163deg;
+    --ig-secondary-s: 100%;
+    --ig-secondary-l: 38%;
+    --ig-primary-800-contrast: black;
+    --ig-secondary-600-contrast: black;
+    --ig-secondary-700-contrast: black;
+    --ig-secondary-800-contrast: black;
+    --ig-secondary-A400-contrast: black;
+}
+
+/* align icons in their containers */
+.material-icons, .imx-icon {
+  vertical-align: middle;
+}
+
+.ig-typography h1,
+.ig-typography h2,
+.ig-typography h3,
+.ig-typography h4,
+.ig-typography h5,
+.ig-typography h6,
+.ig-typography p,
+.ig-typography__body-1 {
+    margin: 0 !important;
+}
